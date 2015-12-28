@@ -1,0 +1,24 @@
+{
+  "name": "drupal/default_content_extras",
+  "type": "drupal-module",
+  "description": "Extras for DCE module",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://github.com/caxy/default-content-extras-module",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://github.com/caxy/default-content-extras-module/issues",
+    "source": "https://github.com/caxy/default-content-extras-module"
+  },
+  "require": {
+    "composer/installers": "~1.0",
+    "drupal/core": "8.0.*",
+    "drupal/default_content": "dev-8.x-1.x"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-8.x": "8.0.x-dev"
+    },
+    "installer-name": "default_content_extras"
+  }
+}
